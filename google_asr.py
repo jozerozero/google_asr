@@ -32,7 +32,7 @@ if __name__ == '__main__':
     record_list = list()
     # start_time = datetime.datetime.now()
     for audio_path in os.listdir(base_path):
-        if not audio_path.endswith('wav'):
+        if not audio_path.endswith('mp3'):
             continue
         audio_path = os.path.join(base_path, audio_path)
         print(audio_path)
